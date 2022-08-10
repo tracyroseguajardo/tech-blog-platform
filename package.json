@@ -1,0 +1,31 @@
+{
+  "name": "tech-blog-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracyroseguajardo/tech-blog-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracyroseguajardo/tech-blog-platform/issues"
+  },
+  "homepage": "https://github.com/tracyroseguajardo/tech-blog-platform#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.4",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.3",
+    "session": "^0.1.0"
+  }
+}
